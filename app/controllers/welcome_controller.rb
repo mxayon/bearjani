@@ -7,4 +7,17 @@ class WelcomeController < ApplicationController
     render :about
   end
 
+  def janitorial
+    render :janitorial
+  end
+
+  def maintenance
+    render :maintenance
+  end
+
+  def contact
+    render :contact
+  end
+
+
 end
